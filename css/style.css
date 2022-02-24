@@ -40,5 +40,6 @@ border: 5px;
 article p {
 border: 1px solid;
 padding-top:0rem;
+margin: 0px;
 text-align: justify;
 }
