@@ -4,6 +4,9 @@ body {background-color: #10E689;
 
 h1, h2, h3, h4, h5, h6 {
     font-family:oswald;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
 }
 
 
@@ -21,8 +24,11 @@ header {
     font-size: xx-large;
     width: 50;
 margin-left: 2rem;
-color: #1aeb90;
+color: #000201;
 border: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* Photo Gallery */
