@@ -146,6 +146,55 @@
 </section>
 </div>
 </article>
+<section id="contact">
+
+<h2>Contact me</h2>
+
+    <form name="contact" method="post" 
+    data-netlify="true">
+        <fieldset>
+
+            <legend> contact form:</form></legend>
+
+                <label for="name"> Name:</label>
+
+                <input name="name" type="text" required="true"> <br>
+
+                <label for="email"> email:</label>
+
+                <input id="Email" name="email" type="email" required="true">
+
+                <label for="Phone"> Phone Number (optional): </label> 
+                <input name="phone" type="tel"> <br>
+
+                <label for="phone type"> Phone Type: </label>
+                <select id="phone_type" name="phone_type">
+                    <option value="H"> Home </option>
+                    <option value="C"> Cell </option>
+                    <option value="W"> Work </option>
+                </select> <br>
+
+                <label for="message"> Message: </label>
+                <textarea></textarea> 
+
+                <fieldset>
+                        <legend>Would you like a reply</legend>
+                        <ul>
+                            <li> <input name="reply" type="radio" value="Yes"> </li> 
+                            <label for="Yes_reply"> yes</label>
+                            <li><input name="reply" type="radio" value="No" checked="true"> </li>
+
+                            <label for="No_reply"> No</label>
+                        </ul>
+                </fieldset>
+        </fieldset>
+
+        <input type="submit" value="Send">
+
+</form>
+
+</section>
+
 
 
 </main>
