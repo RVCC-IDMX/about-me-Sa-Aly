@@ -21,7 +21,7 @@ header {
 }
 #hero {
     text-align: center;
-
+    width: fit-content;
 }
 
 
@@ -63,4 +63,8 @@ border: 1px solid;
 padding-top:0rem;
 margin: 0px;
 text-align: justify;
+}
+
+#my video{
+    
 }
