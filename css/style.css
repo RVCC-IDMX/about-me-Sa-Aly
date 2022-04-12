@@ -73,6 +73,17 @@ margin: 0px;
 text-align: justify;
 }
 
+.short {
+text-align: center;
+font-family: Georgia;
+
+}
+
+
+#my video {
+border: 2px solid;
+}
+
 #contact {
     border: 5px solid;
   
