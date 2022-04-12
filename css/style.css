@@ -54,6 +54,17 @@ flex-direction: column;
 align-items: center;
 }
 
+#hobbies li
+{
+    border: 2px solid;
+}
+
+:hover h2
+{
+    
+}
+
+
 /* Photo Gallery */
 
 #gallery {
