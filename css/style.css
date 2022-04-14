@@ -73,6 +73,12 @@ margin: 0px;
 text-align: justify;
 }
 
+article p::first-letter {
+font-size: 250%;
+background-image: linear-gradient(70deg, blue, cyan, green);
+font-family: cursive;
+text-indent: 70%;
+}
 .short {
 text-align: center;
 font-family: Georgia;
