@@ -16,7 +16,7 @@ h2{
 
 header {
     text-align: center;  
-    border: 5px solid;  
+    border: 5px solid; 
     box-shadow: 3px 3px 3px 3px;
     background-image: linear-gradient(30deg, #0f59e279, #3ddf58, cyan);
     align-items: center;
@@ -26,6 +26,10 @@ header {
     text-align: center;
     width: fit-content;
     border: 5px round green;
+}
+
+.logo img {
+    max-width:100%;
 }
 
 
@@ -78,6 +82,12 @@ margin: 0px;
 text-align: justify;
 }
 
+#lit ::first-letter{
+    font-size: xx-large;
+}
+
+
+
 .short {
 text-align: center;
 font-family: Georgia;
@@ -87,6 +97,10 @@ font-family: Georgia;
 
 #my video {
 border: 2px solid;
+}
+
+#myVideo {
+    max-width:100%;
 }
 
 #contact {
